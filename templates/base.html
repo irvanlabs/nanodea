@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+	{% include "misc/styles.html" %}
+	{% block styles %}
+		<link rel="stylesheet" type="text/css" href="{% static "css/styles.css" %}">
+	{% endblock styles %}
+</head>
+<body>
+	{% include "misc/navs.html" %}
+	{% block body %}
+	{% endblock body %}
+</body>
+	{% include "misc/scripts.html" %}
+	{%block scripts %}
+	{%endblock scripts %}
+</html>

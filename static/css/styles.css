@@ -1,0 +1,11 @@
+.bg-navbar{
+	background-color: #ff471a;
+}
+
+nav > a {
+	font-family: Arial;
+	font-weight: bold;
+}
+.nav-logo{
+	width: 140px;
+}
